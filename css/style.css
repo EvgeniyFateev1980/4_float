@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+body {
+    min-height: 100vh;
+    color: rgba(220, 220, 220, 1);
+    background-image: url(../images/Image1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 75px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav li {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+header {
+    display: inline-block;
+    padding: 43px 0;
+    border-bottom: #C08D5D 1px solid;
+}
+
+
+
+main div h1 {
+    color: #3F4042;
+    font-size: 70px;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 122px;
+    padding-bottom: 45px;
+    letter-spacing: 5px;
+}
+
+main div h1.content1::before {
+    content: 'Food 'url(../images/Logo.svg);
+    display: block;
+    color: #3F4042;
+    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.logo2 {
+    display: inline-block;
+}
+
+main div p {
+    color: #3F4042;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 80px;
+    max-width: 535px;
+}
+
+.readmore {
+    display: inline-block;
+    color: #3F4042;
+    text-decoration: none;
+    padding-left: 26px;
+    line-height: 64px;
+    border: #C08D5D solid 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.readmore::after {
+
+    content: url(../images/Vector2.svg);
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background: #C08D5D;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    margin-left: 26px;
+}
+
+nav li:first-child {
+    color: #C08D5D
+}
+
+.container img.mouse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+    margin-bottom: 69px;
+}
